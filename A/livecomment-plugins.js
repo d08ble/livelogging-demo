@@ -158,6 +158,26 @@ codeOnHide = function ($code) {
   ga('create', 'UA-72573711-1', 'auto');
   ga('send', 'pageview');
 // ga.js ]
+// Donate BTC [
+//:= this.frame('client.exec')
+
+$('#donate-btc').remove()
+
+var wallets = ['1MD42doXhTjBqczh2iaWtFLjyfdKK836hC',
+'15GWbcMEuzhRNW4ivgjPj9d6PLVidS7oMJ',
+'1Fy9U2hs7ssc56Xay9fgPzTb82xDjNFJRk',
+'1C4vMBdLi2caXNtcp1qjPm6BcEbrgZuMkU',
+'1Lj8LGQvBtjYKibR2CQoZeZyPYSVoh2mTr',
+'16Z6QYpFYn6nLL5KkyfXAjWzRBRSucCHw8',
+'1HH24Vo9Xo1S4qfeDa3YGLjSWeLTBgQDi7',
+'17fGCCuc6d6ESj5QDRSBbFgNSa7T6uopHX',
+'1PrM24vrrbhfxgBvepan3cfSjkHqsSr7CL',
+'17mK6PAvK4XGzejpVuWQdBg9QM1Z61r8Xv']
+
+var wallet = wallets[Math.floor(Math.random()*wallets.length)]
+$('<div id="donate-btc">Donate BTC: '+wallet+'</div>').appendTo('#menu')
+
+// Donate BTC ]
 // client.css - donate [
 //:= this.frame('client.css')
 
