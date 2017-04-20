@@ -18,4 +18,4 @@ Donate:
 
 ## License
 
-[MIT](https://github.com/d08ble/livelogging/blob/master/LICENSE)
+[MIT](https://github.com/d08ble/livelogging-demo/blob/master/LICENSE)
