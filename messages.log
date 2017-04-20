@@ -1,39 +1,39 @@
 -*-LiveLogging-*-[
 Process A[
 errors[
-|2017-04-20 14:48:00.592| This is error
+|2017-04-20 15:17:42.916| This is error
 errors]
 warnings[
-|2017-04-20 14:48:00.596| This is warning
+|2017-04-20 15:17:42.920| This is warning
 warnings]
 all[
-|2017-04-20 14:48:00.599| error: Critical error
-|2017-04-20 14:48:00.599| warning: Minor message
+|2017-04-20 15:17:42.924| error: Critical error
+|2017-04-20 15:17:42.924| warning: Minor message
 all]
 Process A]
 Server B[
 unix[
-|2017-04-20 14:48:00.599| debug: DEBUG=1
-|2017-04-20 14:48:00.599| info: Server is started
-|2017-04-20 14:48:00.600| notice: User: hi :)
-|2017-04-20 14:48:00.600| warning: Another message
-|2017-04-20 14:48:00.600| critical: Segmentation fault
-|2017-04-20 14:48:00.600| alert: Alarm!
-|2017-04-20 14:48:00.600| emergency: No free space!
+|2017-04-20 15:17:42.925| debug: DEBUG=1
+|2017-04-20 15:17:42.926| info: Server is started
+|2017-04-20 15:17:42.926| notice: User: hi :)
+|2017-04-20 15:17:42.927| warning: Another message
+|2017-04-20 15:17:42.927| critical: Segmentation fault
+|2017-04-20 15:17:42.927| alert: Alarm!
+|2017-04-20 15:17:42.928| emergency: No free space!
 unix]
 Server B]
 Client C[
 inTestEnv[
-|2017-04-20 14:48:00.600| Database is initialized
+|2017-04-20 15:17:42.928| Database is initialized
 inTestEnv]
 inProdEnv[
-|2017-04-20 14:48:00.600| Production bootstrap
+|2017-04-20 15:17:42.928| Production bootstrap
 inProdEnv]
 toInvestigateTomorrow[
-|2017-04-20 14:48:00.601| keyvalue is not present, recreate!
+|2017-04-20 15:17:42.928| keyvalue is not present, recreate!
 toInvestigateTomorrow]
 wakeMeInTheMiddleOfTheNight[
-|2017-04-20 14:48:00.601| This need to be investigated now! Donate for LiveLogging! :)
+|2017-04-20 15:17:42.929| This need to be investigated now! Donate for LiveLogging! :)
 wakeMeInTheMiddleOfTheNight]
 Client C]
 -*-LiveLogging-*-]

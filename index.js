@@ -1,3 +1,8 @@
+// FORK ME ON Github [
+// https://github.com/d08ble/livelogging-demo
+// https://github.com/d08ble/livelogging
+// https://github.com/d08ble/livecomment
+// FORK ME ON Github ]
 // livelogging demo [
 // https://www.npmjs.com/package/livelogging
 
