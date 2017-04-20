@@ -1,0 +1,29 @@
+{
+  "name": "livelogging-demo",
+  "version": "1.0.0",
+  "description": "Demo of livelogging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d08ble/livelogging-demo.git"
+  },
+  "keywords": [
+    "livelogging",
+    "livecomment",
+    "demo"
+  ],
+  "author": "d08ble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d08ble/livelogging-demo/issues"
+  },
+  "homepage": "https://github.com/d08ble/livelogging-demo#readme",
+  "dependencies": {
+    "livecomment": "^0.2.20",
+    "livelogging": "0.0.17"
+  }
+}
